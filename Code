@@ -1,0 +1,180 @@
+<div style="text-align: right;"><span style="font-family:arial,sans-serif;"></span></div>
+<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+{{!Contact.name}}<br />
+{{!Contact.mailingstreet}}<br />
+{{!Contact.mailingcity}}&nbsp;{{!Contact.mailingstate}}&nbsp;{{!Contact.mailingpostalcode}}<br />
+<br />
+<br />
+Dear&nbsp;{{!Contact.firstname}} <!-- ******************** START RELATED LIST SECTION UNIQUEID:146********************--></span></span><br />
+<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><br />
+Thank you so much for your contribution to the work of Prison Network this financial year.&nbsp;Your generosity has enabled us to journey with women in and beyond prison. Thanks to you we have supported women to navigate positive pathways and create change.<br />
+<br />
+Please find below a summary of your donations to Prison Network for the 2021 - 2022 Financial Year.</span></span> &nbsp;&nbsp;
+
+<table style="width: 735px;">
+	<tbody>
+		<tr>
+			<td style="width: 87px;">
+			<p><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><strong>Date</strong></span></span></p>
+			</td>
+			<td style="width: 312px;">
+			<p><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><strong>Being for</strong></span></span></p>
+			</td>
+			<td style="width: 313px;">
+			<p><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><strong>Amount</strong></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><!--{{! <LineItemsSOQL>
+<class>table65</class>
+<ListName>Opportunity</ListName>
+<column format-date="dd MMM yyyy">Closedate</column>
+
+<column>Campaign.name</column>
+<column prefix="$">amount</column>
+<where>stagename in ('Posted','Closed Won') and npsp__Primary_Contact__c='{{!Contact.Id}}' and closedate >= 2021-07-01 and
+closedate <= 2022-06-30</where>
+</LineItemsSOQL> }}--></p>
+
+<table style="width: 739px;">
+	<tbody>
+		<tr>
+			<td style="width: 513px; text-align: right;">
+			<p><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><strong>Statement Total</strong></span></span></p>
+			</td>
+			<td style="width: 264px; text-align: left;">
+			<p><span style="font-family:arial,sans-serif;">${{!Contact.npo02__oppamountthisyear__c}}</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><span style="font-family:tahoma,geneva,sans-serif;"></span></p>
+
+<div style="text-align: center;"><font face="arial" size="10"><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"></span></span></font></div>
+
+<div> </div>
+
+<div><font face="arial" size="10"><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;">Your support is greatly appreciated.</span></span></font><br />
+<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;">Warm regards</span></span></div>
+<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><br />
+<br />
+Amelia Pickering<br />
+CEO<br />
+apickering@prisonnetwork.org.au</span></span>
+
+<div><br />
+<font face="arial" size="10"><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"></span></span></font></div>
+<font face="arial" size="10"><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><span style="text-align: center;"></span></span></span></font>
+
+<div style="text-align: center;"> </div>
+<br />
+<br />
+<font face="arial" size="10"><!-- ******************** END RELATED LIST SECTION UNIQUEID:172********************-->
+<style type="text/css">table.table172 {border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table172header {text-align:center;font-weight:bold;color:#FFFFFF;background-color:#000000;}
+.table172footer {text-align:right;font-weight:bold;height: 30px}
+.table172col0{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table172col1{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table172col2{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table807 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table807header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table807footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table807RowEven{border:solid black 1px;}
+.table807RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table807col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table807col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table807col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table775 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table775header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table775footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table775RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table775col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table775col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table775col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table864 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table864header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table864footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table864RowEven{border:solid black 1px;}
+.table864RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table864col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table864col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table864col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table135 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table135header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table135footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table135RowEven{border:solid black 1px;}
+.table135RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table135col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table135col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table135col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table921 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table921header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table921footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table921RowEven{border:solid black 1px;}
+.table921RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table921col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table921col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table921col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table921col3{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table87 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table87header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table87footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table87RowEven{}
+.table87RowOdd{background-color:#cdcdcd;}
+.table87col0{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table87col1{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table87col2{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table87col3{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table816 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table816header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table816footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table816RowEven{border:solid black 1px;}
+.table816RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table816col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table816col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table816col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table816col3{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table140 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table140header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table140footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table140RowEven{}
+.table140RowOdd{background-color:#cdcdcd;}
+.table140col0{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table140col1{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table140col2{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+<style type="text/css">table.table65 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table65header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table65footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table65RowEven{}
+.table65RowOdd{background-color:#cdcdcd;}
+.table65col0{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table65col1{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table65col2{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
+</font>
+<style type="text/css">table.table146 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table146header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table146footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table146RowEven{border:solid black 1px;}
+.table146RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table146col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table146col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table146col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+</style>
