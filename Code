@@ -1,56 +1,60 @@
-<div style="text-align: right;"><span style="font-family:arial,sans-serif;"></span></div>
-<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><br />
-<br />
-<br />
-<br />
-<br />
-<br />
-{{!Contact.name}}<br />
-{{!Contact.mailingstreet}}<br />
-{{!Contact.mailingcity}}&nbsp;{{!Contact.mailingstate}}&nbsp;{{!Contact.mailingpostalcode}}<br />
-<br />
-<br />
-Dear&nbsp;{{!Contact.firstname}} <!-- ******************** START RELATED LIST SECTION UNIQUEID:146********************--></span></span><br />
-<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><br />
-Thank you so much for your contribution to the work of Prison Network this financial year.&nbsp;Your generosity has enabled us to journey with women in and beyond prison. Thanks to you we have supported women to navigate positive pathways and create change.<br />
-<br />
-Please find below a summary of your donations to Prison Network for the 2021 - 2022 Financial Year.</span></span> &nbsp;&nbsp;
+<div style="text-align: right;"> </div>
+<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><img alt="Moira Kelly Logo" src="https://moirakelly--c.documentforce.com/servlet/servlet.ImageServer?id=0159o0000009Cwq&amp;oid=00D2w000002jD15&amp;lastMod=1654632688000" style="float:left" /></span></span>
 
-<table style="width: 735px;">
+<div style="text-align: right;"><span style="font-size:12pt;"><span style="font-family:arial,sans-serif;"></span><strong>{{!DocumentDateTime d&nbsp;MMMMMM, yyyy}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span><br />
+&nbsp; &nbsp;<span style="font-size:12pt;"><span style="font-family:arial,sans-serif;">{{!Contact.name}}<span style="font-size:12pt;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span><br />
+{{!Contact.email}}<span style="font-size:12pt;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span><br />
+{{!Contact.mailingstreet}}<span style="font-size:12pt;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span><br />
+{{!Contact.mailingcity}}&nbsp;{{!Contact.mailingstate}}&nbsp;{{!Contact.mailingpostalcode}}<span style="font-size:12pt;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span></span></span><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"></span></span></div>
+<br />
+<br />
+<span style="font-size:12pt;"><span style="font-family:arial,sans-serif;">Dear&nbsp;{{!Contact.firstname}} <!-- ******************** START RELATED LIST SECTION UNIQUEID:146********************--></span><br />
+<span style="font-family:arial,sans-serif;"><br />
+Thank you so much for supporting our work.&nbsp;Your regular donation enables us to continue providing life-changing medical treatment for children who would not otherwise be able to receive the care they need and support for displaced women and their families who have not been able to find help elsewhere.&nbsp;From all of us, thank you for your generosity and your care.<br />
+<br />
+Please find below a summary of your donations for the last Financial Year. </span> &nbsp;</span>&nbsp; <!-- ******************** START RELATED LIST SECTION UNIQUEID:504********************--><br />
+### RELATED LIST No: 504 ###
+<style type="text/css">table.table504 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,sans-serif; font-size:12pt; width:100% }
+.table504header {text-align:center;font-weight:bold;color:#FFFFFF;background-color:#CF3D96;}
+.table504footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table504RowEven{background-color:#f7e9f0;}
+.table504RowOdd{background-color:#fbf1f5;}
+.table504col0{border:solid white 1px;text-align:center;font-weight:normal;font-size:10pt;font-family:tahoma,geneva,sans-serif;}
+.table504col1{border:solid white 1px;text-align:center;font-weight:normal;font-size:10pt;font-family:tahoma,geneva,sans-serif;}
+.table504col2{border:solid white 1px;text-align:center;font-weight:normal;font-size:10pt;font-family:tahoma,geneva,sans-serif;}
+.table504col3{border:solid white 1px;text-align:center;font-weight:normal;font-size:10pt;font-family:tahoma,geneva,sans-serif;}
+</style>
+<p> </p>
+
+<table class="table504">
 	<tbody>
 		<tr>
-			<td style="width: 87px;">
-			<p><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><strong>Date</strong></span></span></p>
-			</td>
-			<td style="width: 312px;">
-			<p><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><strong>Being for</strong></span></span></p>
-			</td>
-			<td style="width: 313px;">
-			<p><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><strong>Amount</strong></span></span></p>
-			</td>
+			<th class="table504header">Date</th>
+			<th class="table504header">Donation towards</th>
+			<th class="table504header">Amount</th>
 		</tr>
 	</tbody>
-</table>
-
-<p><!--{{! <LineItemsSOQL>
-<class>table65</class>
+	<tbody style="page-break-inside: avoid !important; page-break-before: auto !important;"><!--{{! <LineItemsSOQL>
+<class>table504</class>
 <ListName>Opportunity</ListName>
 <column format-date="dd MMM yyyy">Closedate</column>
-
 <column>Campaign.name</column>
 <column prefix="$">amount</column>
-<where>stagename in ('Posted','Closed Won') and npsp__Primary_Contact__c='{{!Contact.Id}}' and closedate >= 2021-07-01 and
-closedate <= 2022-06-30</where>
-</LineItemsSOQL> }}--></p>
-
-<table style="width: 739px;">
+<where>stagename in ('Posted','Closed Won') and npsp__Primary_Contact__c='{{!Contact.Id}}' and closedate = LAST_FISCAL_YEAR</where>
+<orderby>closedate</orderby>
+</LineItemsSOQL> }}-->
+	</tbody>
+</table>
+<br />
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:504********************-->
+<table style="width: 100%; padding: 0; border-spacing: 0px; border-collapse: collapse;">
 	<tbody>
 		<tr>
-			<td style="width: 513px; text-align: right;">
-			<p><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><strong>Statement Total</strong></span></span></p>
+			<td style="width: 604px; text-align: center;">
+			<p style="text-align: right;"><span style="font-size:10pt;"><span style="font-family:tahoma,geneva,sans-serif;"><strong>Statement Total</strong></span></span></p>
 			</td>
-			<td style="width: 264px; text-align: left;">
-			<p><span style="font-family:arial,sans-serif;">${{!Contact.npo02__oppamountthisyear__c}}</span></p>
+			<td style="width: 219px; text-align: left;">
+			<p style="text-align: right;"><span style="font-size:12pt;"><span style="font-family:tahoma, geneva, sans-serif;">${!Contact.npo02__oppamountlastyear__c #,###}&nbsp; &nbsp; &nbsp; &nbsp;</span></span></p>
 			</td>
 		</tr>
 	</tbody>
@@ -60,23 +64,11 @@ closedate <= 2022-06-30</where>
 
 <div style="text-align: center;"><font face="arial" size="10"><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"></span></span></font></div>
 
-<div> </div>
-
-<div><font face="arial" size="10"><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;">Your support is greatly appreciated.</span></span></font><br />
-<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;">Warm regards</span></span></div>
-<span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><br />
-<br />
-Amelia Pickering<br />
-CEO<br />
-apickering@prisonnetwork.org.au</span></span>
-
-<div><br />
-<font face="arial" size="10"><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"></span></span></font></div>
-<font face="arial" size="10"><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><span style="text-align: center;"></span></span></span></font>
-
-<div style="text-align: center;"> </div>
+<div><span style="font-size:12pt;"><span style="font-family:arial,sans-serif;">Warm regards</span></span></div>
 <br />
 <br />
+<span style="font-size:12pt;"><span style="font-family:arial,sans-serif;">Sara Pantaleo<br />
+Executive Director, Chair</span></span><br />
 <font face="arial" size="10"><!-- ******************** END RELATED LIST SECTION UNIQUEID:172********************-->
 <style type="text/css">table.table172 {border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
 .table172header {text-align:center;font-weight:bold;color:#FFFFFF;background-color:#000000;}
@@ -89,7 +81,7 @@ apickering@prisonnetwork.org.au</span></span>
 .table807header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
 .table807footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
 .table807RowEven{border:solid black 1px;}
-.table807RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table807RowOdd{background-color:#FFFFFF;background-color:#FFFFFF;border:solid black 1px;}
 .table807col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table807col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table807col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
@@ -97,7 +89,7 @@ apickering@prisonnetwork.org.au</span></span>
 <style type="text/css">table.table775 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
 .table775header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
 .table775footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
-.table775RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table775RowOdd{background-color:#FFFFFF;background-color:#FFFFFF;border:solid black 1px;}
 .table775col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table775col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table775col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
@@ -106,7 +98,7 @@ apickering@prisonnetwork.org.au</span></span>
 .table864header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
 .table864footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
 .table864RowEven{border:solid black 1px;}
-.table864RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table864RowOdd{background-color:#FFFFFF;background-color:#FFFFFF;border:solid black 1px;}
 .table864col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table864col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table864col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
@@ -115,7 +107,7 @@ apickering@prisonnetwork.org.au</span></span>
 .table135header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
 .table135footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
 .table135RowEven{border:solid black 1px;}
-.table135RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table135RowOdd{background-color:#FFFFFF;background-color:#fbf1f5;border:solid black 1px;}
 .table135col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table135col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table135col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
@@ -124,7 +116,7 @@ apickering@prisonnetwork.org.au</span></span>
 .table921header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
 .table921footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
 .table921RowEven{border:solid black 1px;}
-.table921RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table921RowOdd{background-color:#FFFFFF;background-color:#FFFFFF;border:solid black 1px;}
 .table921col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table921col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table921col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
@@ -134,7 +126,7 @@ apickering@prisonnetwork.org.au</span></span>
 .table87header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
 .table87footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
 .table87RowEven{}
-.table87RowOdd{background-color:#cdcdcd;}
+.table87RowOdd{background-color:#FFFFFF;}
 .table87col0{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table87col1{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table87col2{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
@@ -144,7 +136,7 @@ apickering@prisonnetwork.org.au</span></span>
 .table816header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
 .table816footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
 .table816RowEven{border:solid black 1px;}
-.table816RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table816RowOdd{background-color:#FFFFFF;background-color:#FFFFFF;border:solid black 1px;}
 .table816col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table816col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table816col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
@@ -154,27 +146,33 @@ apickering@prisonnetwork.org.au</span></span>
 .table140header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
 .table140footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
 .table140RowEven{}
-.table140RowOdd{background-color:#cdcdcd;}
+.table140RowOdd{background-color:#FFFFFF;}
 .table140col0{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table140col1{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table140col2{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 </style>
-<style type="text/css">table.table65 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
-.table65header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
-.table65footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+<style type="text/css">table.table65 {border:solid black 1px; font-family:tahoma, geneva,sans-serif; font-size:10pt; width:100%; border-collapse:collapse; border-spacing:0px;}
+  th, td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+.table65header {text-align:center;font-weight:bold;border-spacing:0px;border-top:solid black 1px;border-bottom:solid black 1px; border-collapse:collapse;}
+.table65footer {text-align:right;font-weight:bold;border-spacing:0px;border:solid black 1px; height: 30px; border-collapse:collapse;}
 .table65RowEven{}
-.table65RowOdd{background-color:#cdcdcd;}
-.table65col0{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
-.table65col1{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
-.table65col2{text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
+.table65RowOdd{background-color:#fbf1f5;}
+.table65col0{text-align:left;font-weight:normal;font-size:11pt;font-family:Arial, Helvetica, sans-serif;}
+.table65col1{text-align:left;font-weight:normal;font-size:11pt;font-family:Arial, Helvetica, sans-serif;}
+.table65col2{text-align:left;font-weight:normal;font-size:11pt;font-family:Arial, Helvetica, sans-serif;}
 </style>
-</font>
 <style type="text/css">table.table146 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
 .table146header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
 .table146footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
 .table146RowEven{border:solid black 1px;}
-.table146RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table146RowOdd{background-color:#fbf1f5;background-color:#fbf1f5;border:solid black 1px;}
 .table146col0{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table146col1{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 .table146col2{border:solid black 1px;text-align:left;font-weight:normal;font-size:12pt;font-family:Arial, Helvetica, sans-serif;}
 </style>
+</font>
