@@ -1,11 +1,11 @@
-<div style="text-align: right;"> </div>
+<div style="text-align: right;"><span style="font-size:12pt;"><span style="font-family:arial,sans-serif;"></span></span></div>
 <span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><img alt="Moira Kelly Logo" src="https://moirakelly--c.documentforce.com/servlet/servlet.ImageServer?id=0159o0000009Cwq&amp;oid=00D2w000002jD15&amp;lastMod=1654632688000" style="float:left" /></span></span>
 
-<div style="text-align: right;"><span style="font-size:12pt;"><span style="font-family:arial,sans-serif;"></span><strong>{{!DocumentDateTime d&nbsp;MMMMMM, yyyy}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span><br />
-&nbsp; &nbsp;<span style="font-size:12pt;"><span style="font-family:arial,sans-serif;">{{!Contact.name}}<span style="font-size:12pt;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span><br />
-{{!Contact.email}}<span style="font-size:12pt;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span><br />
-{{!Contact.mailingstreet}}<span style="font-size:12pt;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span><br />
-{{!Contact.mailingcity}}&nbsp;{{!Contact.mailingstate}}&nbsp;{{!Contact.mailingpostalcode}}<span style="font-size:12pt;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></span></span></span><span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"></span></span></div>
+<div style="text-align: right;"><span style="font-size:12pt; font-family:arial,sans-serif;">{{!DocumentDateTime d&nbsp;MMMMMM, yyyy}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
+&nbsp; &nbsp;{{!Contact.name}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
+{{!Contact.email}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
+{{!Contact.mailingstreet}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
+{{!Contact.mailingcity}}&nbsp;{{!Contact.mailingstate}}&nbsp;{{!Contact.mailingpostalcode}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div>
 <br />
 <br />
 <span style="font-size:12pt;"><span style="font-family:arial,sans-serif;">Dear&nbsp;{{!Contact.firstname}} <!-- ******************** START RELATED LIST SECTION UNIQUEID:146********************--></span><br />
@@ -24,7 +24,7 @@ Please find below a summary of your donations for the last Financial Year. </spa
 .table504col2{border:solid white 1px;text-align:center;font-weight:normal;font-size:10pt;font-family:tahoma,geneva,sans-serif;}
 .table504col3{border:solid white 1px;text-align:center;font-weight:normal;font-size:10pt;font-family:tahoma,geneva,sans-serif;}
 </style>
-<p> </p>
+<p>†</p>
 
 <table class="table504">
 	<tbody>
