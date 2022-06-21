@@ -2,7 +2,11 @@
 <span style="font-size:10pt;"><span style="font-family:arial,sans-serif;"><img alt="Moira Kelly Logo" src="https://moirakelly--c.documentforce.com/servlet/servlet.ImageServer?id=0159o0000009Cwq&amp;oid=00D2w000002jD15&amp;lastMod=1654632688000" style="float:left" /></span></span>
 
 <div style="text-align: right;"><span style="font-size:12pt; font-family:arial,sans-serif;">{{!DocumentDateTime d&nbsp;MMMMMM, yyyy}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
-&nbsp; &nbsp;{{!Contact.name}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
+&nbsp; &nbsp;
+<br />
+<br />
+<br />
+{{!Contact.name}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
 {{!Contact.email}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
 {{!Contact.mailingstreet}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
 {{!Contact.mailingcity}}&nbsp;{{!Contact.mailingstate}}&nbsp;{{!Contact.mailingpostalcode}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div>
